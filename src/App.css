@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+.user-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.user-card {
+  margin: 5px;
+  width: 250px;
+  border: 1px solid #7dfcd5;
+  height: 200px;
+  box-shadow: 0px 0px 8px #7dfcd5;
+  border-radius: 10px;
+}
+.user-list img {
+  width: 50%;
+  height: 120px;
+  margin: 10px auto;
+}
+.list-btn {
+  border: 1px solid gray;
+  width: 200px;
+    margin: 10px auto;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li.pageItem {
+  list-style: none;
+  display: inline-block;
+  width: 50px;
+  background-color: aquamarine;
+  margin: 5px;
+}
+a.pageLink {
+  text-decoration: none;
+  width: 50px;
+  display: inline-block;
+}
